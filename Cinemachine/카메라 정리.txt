@@ -1,0 +1,8 @@
+FreeLook = 플레이어 따라다니는 카메라
+BlendListCamera = 원하는 위치에 카메라를 두고 카메라가 이동하면서 컷씬 잡아줌. CM vcam 카메라를 선택하고 Inspector -> CinemachineVirtualCamera 세부사항 - Body 값을 Do nothing 값으로 조절하면 카메라 위치가 고정값이 아니게 되어 Ctrl+Shift+F 누르면 카메라 위치값이 설정되어 원하는 위치로 조절가능
+CM StateDrivenCamera1 = 애니메이션을 특정 상태에 따라서 카메라를 전환시킨다 (CCtv 느낌? 카메라 LookAt에 플레이어 카메라 루트를 넣으면 된다)
+DollyTrack1 = 트렉에 따라 이동한다. 영화찰영 느낌? CM vcam 카메라 Body 에서 AutoDolly - Enabled 체크해준다
+DollyCart1 = 트렉에 따라 이동하는건 같지만 플레이어가 트렉에 따라 움직이는 것이 아니고 트랙에 움직인다. 대신에 카메라가 없어서 카메라를 따로 설정해줘야한다. (버츄얼 카메라)
+TargetGroup1 = Target에 플레이어 와 그룹으로 묶인 오브젝트를 카메라안에 한번에 담아 같이 볼수있다. (보스몹과 함께 찍힐때 용이하다)
+CM MixingCamera1 = 여러개의 카메라의 평균적은 값을 내어 보여준ㄷㅏ
+2D Camera = Follow값 (플레이어) LookAt(Root) 값을 넣고 카메라 위치값을 적절하게 주면 2D 처럼 보인다.
